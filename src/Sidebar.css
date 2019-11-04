@@ -1,0 +1,91 @@
+.Sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color:white;
+  box-shadow: 0 0 25px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 1.5em 2em;
+  font-weight: 600;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dadada;
+}
+
+.filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.5em 2em;
+  box-sizing: border-box;
+}
+
+.filter-wrapper input {
+  border: 1px solid #dadada;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.filter-wrapper input:focus {
+  outline: none;
+}
+
+.emojies-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.Emojies {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0 2em;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.Emojies-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 1em
+}
+
+.category-header {
+  position: sticky;
+  background-color: white;
+  padding: 10px 0;
+  top: 0;
+}
+
+.emoji-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.emoji-item {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  /* margin-right: 20px;
+  margin-bottom: 20px; */
+}
